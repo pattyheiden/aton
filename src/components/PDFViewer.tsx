@@ -10,12 +10,13 @@ export function PDFViewer({ url }: PDFViewerProps) {
                 style={{ width: '100%', height: '100%', border: 'none' }}
             />
         </div>
-        <div className="lg:hidden h-screen w-full">
-            <iframe
+        {/* <div className="lg:hidden h-screen w-full">
+            <iframe            
                 src={url}
                 style={{ width: '100%', height: '50%', border: 'none' }}
             />
-        </div>
+        </div> */}
         </>
     )
 }
+
