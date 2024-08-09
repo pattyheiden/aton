@@ -16,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-zinc-100 text-zinc-950 antialiased m-0 p-0 w-full">
       <body className={mont.className}>
+        <div className="min-h-screen">
         {children}
+        </div>
       </body>
     </html>
   );
